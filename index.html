@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Form</title>
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+    <!--Signaure pad link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/signature_pad/4.1.7/signature_pad.umd.min.js"></script>
+</head>
+
+<body>
+    
+    <section class="container">
+        <h1>Site Report Sheet</h1>
+        <form action="#" class="form">
+
+            <div class="row">
+                <div class="column">
+                    <label for="issue">Client details</label>
+                    <textarea id="issue" placeholder="" rows="3"></textarea>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <label for="issue">Site Name & Address</label>
+                    <textarea id="issue" placeholder="" rows="3"></textarea>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="column">
+                    <label for="number">WIS Number</label>
+                    <input type="text" id="number" placeholder="">
+                </div>
+
+                <div class="input-box">
+                    <label>Date</label>
+                    <input type="date" required/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <label for="issue"></label>
+                    <textarea id="issue" placeholder="Type here" rows="3"></textarea>
+                </div>
+            </div>
+
+            <h4>THE ABOVE IS CERTIFIED CORRECT AND SYSTEM HAS BEEN LEFT IN <u>WORKING ORDER</u></h4> <br>
+
+            <div class="row">
+                <div class="column">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="">
+                </div>
+
+                <!--Signature pad-->
+
+                <div class="flex-row">
+                    <div class="wrapper">
+                        <canvas id="signature-pad" width="400" height="200"></canvas>
+                    </div>
+                    <div class="clear-btn">
+                        <button id="clear"><span> Clear </span></button>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <label for="number">On behalf of</label>
+                        <input type="text" id="number" placeholder="">
+                    </div>
+                </div>
+
+                <div class="column">
+                    <label for="ename">Engineers Name</label>
+                    <input type="text" id="ename" placeholder="">
+                </div>
+
+
+                <div class="column">
+                    <label for="ename">Engineers Name</label>
+                    <input type="text" id="ename" placeholder="">
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+        </form>
+    </section>
+    </div>
+</body>
+
+</html>
