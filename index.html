@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    
+
     <section class="container">
         <h1>Site Report Sheet</h1>
         <form action="#" class="form">
@@ -32,66 +32,62 @@
                 </div>
             </div>
 
-
-            <div class="row">
-                <div class="column">
-                    <label for="number">WIS Number</label>
-                    <input type="text" id="number" placeholder="">
-                </div>
-
+            <div class="column">
                 <div class="input-box">
+                    <label>WIS Number</label>
+                    <input type="text" required />
+                </div>
+
+                <div class="input-box" id="date">
                     <label>Date</label>
-                    <input type="date" required/>
+                    <input type="date" required />
                 </div>
             </div>
 
-            <div class="row">
-                <div class="column">
-                    <label for="issue"></label>
-                    <textarea id="issue" placeholder="Type here" rows="3"></textarea>
-                </div>
-            </div>
+            <br>
+            <br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            
+           <!--This will be an open space for middle of Report-->
+
 
             <h4>THE ABOVE IS CERTIFIED CORRECT AND SYSTEM HAS BEEN LEFT IN <u>WORKING ORDER</u></h4> <br>
 
-            <div class="row">
+           
+              
+
                 <div class="column">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" placeholder="">
+                    <div class="input-box">
+                        <label>Name</label>
+                        <input type="text" required />
+                    </div>
                 </div>
-
-                <!--Signature pad-->
-
+<br><br>
+                  <!--Signature pad-->
+                  
+                <label>Signature</label> <br><br>
                 <div class="flex-row">
                     <div class="wrapper">
-                        <canvas id="signature-pad" width="400" height="200"></canvas>
+                        <canvas id="signature-pad" width="300" height="100"></canvas>
                     </div>
                     <div class="clear-btn">
                         <button id="clear"><span> Clear </span></button>
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="column">
-                        <label for="number">On behalf of</label>
-                        <input type="text" id="number" placeholder="">
+                <div class="column"> 
+                    <div class="input-box">
+                        <label>On Behalf Of</label>
+                        <input type="text" required />
+                    </div>
+                    <div class="input-box">
+                        <label>Engineers Name</label>
+                        <input type="text" required />
                     </div>
                 </div>
+         
 
-                <div class="column">
-                    <label for="ename">Engineers Name</label>
-                    <input type="text" id="ename" placeholder="">
-                </div>
-
-
-                <div class="column">
-                    <label for="ename">Engineers Name</label>
-                    <input type="text" id="ename" placeholder="">
-                </div>
-
-
-
-            </div>
+           
 
 
 
