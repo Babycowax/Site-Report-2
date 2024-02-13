@@ -53,6 +53,7 @@
            <!--This will be an open space for middle of Report-->
 
 
+        <div class="outline">
             <h4>THE ABOVE IS CERTIFIED CORRECT AND SYSTEM HAS BEEN LEFT IN <u>WORKING ORDER</u></h4> <br>
 
                 <div class="column">
@@ -61,7 +62,7 @@
                         <input type="text" required />
                     </div>
                 </div>
-<br><br>
+<br>
                   <!--Signature pad-->
                   
                 <label>Signature</label> <br><br>
@@ -89,8 +90,20 @@
                         <input type="date" required />
                     </div>
                 </div>
-
-         
+                <div class="input-box">
+                    <label>Engineer's Name</label>
+                    <input type="text" required />
+                </div>
+                <br>
+                <label>Engineer's Signature</label> <br><br>
+                <div class="flex-row">
+                    <div class="wrapper">
+                        <canvas id="signature-pad" width="300" height="100"></canvas>
+                    </div>
+                    <div class="clear-btn">
+                        <button id="clear"><span> Clear </span></button>
+                    </div>
+         </div>
 
            
 

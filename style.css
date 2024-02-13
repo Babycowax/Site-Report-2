@@ -31,7 +31,7 @@ body {
 textarea {
     width: 100%;
     height: 150px;
-    padding: 12px 20px;
+    padding: 12px 20px
     box-sizing: border-box;
     background-color:#none;
     font-size:16px;
@@ -39,6 +39,11 @@ textarea {
     border-radius: px;
     border:2px solid #707070;
     outline:none;
+}
+
+.outline {
+    border: 5px solid #aa989d85;
+    padding: 2%;
 }
 
 textarea::placeholder {
@@ -88,6 +93,10 @@ textarea::placeholder {
 
 #date { /*used -10 margin bottom to remove the space to heading below */
     margin-bottom: 1%;
+}
+
+#name {
+    margin-bottom: 5%;
 }
 
 .other {
@@ -151,10 +160,6 @@ label i{
 
 }
 
-.column .input-box #name {
-    margin-bottom: 20%%;
-}
-
 canvas#signature-pad {
     background: #fff;
     width: 100%;
@@ -206,6 +211,8 @@ input:focus {
 h4 {
     margin-top: 1px;
     padding: 10px;
+    text-align: center;
+    font-size: 15.6px;
 }
 
 button {
