@@ -14,10 +14,12 @@ body {
     width: 100%;
     background: #b0cac7;
 }
+
 .container {
     background-color: #ffffff;
     min-width: 80%;
-    overflow: auto;
+    overflow: relative;
+    position: relative;
     max-height: min-content;
     height: auto;
     padding: 3%;
@@ -85,7 +87,7 @@ textarea::placeholder {
 }
 
 #date { /*used -10 margin bottom to remove the space to heading below */
-    margin-bottom: -10%;
+    margin-bottom: 1%;
 }
 
 .other {
@@ -147,6 +149,10 @@ label i{
     border: 1px solid #707070;
     border-right: 0;
 
+}
+
+.column .input-box #name {
+    margin-bottom: 20%%;
 }
 
 canvas#signature-pad {
@@ -224,3 +230,4 @@ button {
       flex-wrap: wrap;
     }
   }
+
